@@ -1,0 +1,26 @@
+{
+  "name": "llm_node",
+  "version": "1.0.0",
+  "description": "Trying to run llm with node",
+  "type":"module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratheeshrussell/llm_node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratheeshrussell/llm_node/issues"
+  },
+  "homepage": "https://github.com/pratheeshrussell/llm_node#readme",
+  "scripts": {
+    "start": "npx tsx src/main.ts"
+  },
+  "dependencies": {
+    "node-llama-cpp": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.1",
+    "typescript": "^5.3.3"
+  }
+}
