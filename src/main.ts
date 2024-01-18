@@ -1,3 +1,6 @@
-import runModel from './runModel';
+//import runModel from './runModel';
 
-runModel();
+//runModel();
+
+import chatModel from './chatmodel';
+chatModel();

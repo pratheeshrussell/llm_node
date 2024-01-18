@@ -2,7 +2,7 @@
   "name": "llm_node",
   "version": "1.0.0",
   "description": "Trying to run llm with node",
-  "type":"module",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pratheeshrussell/llm_node.git"
@@ -17,6 +17,7 @@
     "start": "npx tsx src/main.ts"
   },
   "dependencies": {
+    "langchain": "^0.1.4",
     "node-llama-cpp": "^2.8.3"
   },
   "devDependencies": {
